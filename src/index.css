@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'react-toastify/dist/ReactToastify.css';
+
+/* Custom Toast Styles */
+.Toastify__toast-container {
+  width: 350px !important;
+}
+
+.Toastify__toast {
+  border-radius: 12px !important;
+  box-shadow: 0 8px 32px rgba(91, 79, 233, 0.2) !important;
+  font-family: 'Inter', sans-serif !important;
+  font-size: 14px !important;
+  padding: 16px !important;
+}
+
+.Toastify__toast--success {
+  background: linear-gradient(135deg, #10B981, #34D399) !important;
+  color: white !important;
+}
+
+.Toastify__toast--error {
+  background: linear-gradient(135deg, #EF4444, #F87171) !important;
+  color: white !important;
+}
+
+.Toastify__toast--info {
+  background: linear-gradient(135deg, #5B4FE9, #8B7FFF) !important;
+  color: white !important;
+}
+
+.Toastify__progress-bar {
+  background: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgba(139, 127, 255, 0.1);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(91, 79, 233, 0.3);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(91, 79, 233, 0.5);
+}
+
+/* Drag and Drop Styles */
+.drag-over {
+  background: linear-gradient(135deg, rgba(91, 79, 233, 0.05), rgba(139, 127, 255, 0.05));
+  border: 2px dashed rgba(91, 79, 233, 0.3);
+  border-radius: 12px;
+}
+
+.dragging {
+  opacity: 0.5;
+  transform: rotate(5deg);
+  z-index: 1000;
+}
+
+/* Checkbox Animation */
+.task-checkbox {
+  transition: all 0.3s ease;
+}
+
+.task-checkbox:checked {
+  background: linear-gradient(135deg, #10B981, #34D399);
+  border-color: #10B981;
+}
+
+/* Priority Indicators */
+.priority-high {
+  border-left: 3px solid #EF4444;
+}
+
+.priority-medium {
+  border-left: 3px solid #F59E0B;
+}
+
+.priority-low {
+  border-left: 3px solid #10B981;
+}
+
+.priority-high:hover {
+  box-shadow: 0 4px 16px rgba(239, 68, 68, 0.2);
+}
+
+.priority-medium:hover {
+  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.2);
+}
+
+.priority-low:hover {
+  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.2);
+}
+
+/* Loading Skeleton */
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: loading 1.5s infinite;
+}
+
+@keyframes loading {
+  0% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: -200% 0;
+  }
+}
+
+/* Focus Styles */
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(91, 79, 233, 0.1);
+  border-color: #5B4FE9;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .Toastify__toast-container {
+    width: 90vw !important;
+    left: 5vw !important;
+    right: 5vw !important;
+  }
+}

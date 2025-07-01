@@ -1,0 +1,82 @@
+[
+  {
+    "Id": 1,
+    "title": "Complete project proposal",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2024-12-24",
+    "categoryId": 1,
+    "order": 0,
+    "createdAt": "2024-12-20T09:00:00.000Z"
+  },
+  {
+    "Id": 2,
+    "title": "Review team performance reports",
+    "completed": false,
+    "priority": "medium",
+    "dueDate": "2024-12-25",
+    "categoryId": 1,
+    "order": 1,
+    "createdAt": "2024-12-20T10:30:00.000Z"
+  },
+  {
+    "Id": 3,
+    "title": "Update portfolio website",
+    "completed": true,
+    "priority": "low",
+    "dueDate": null,
+    "categoryId": 2,
+    "order": 0,
+    "createdAt": "2024-12-19T14:15:00.000Z"
+  },
+  {
+    "Id": 4,
+    "title": "Implement new feature for TaskFlow",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2024-12-26",
+    "categoryId": 2,
+    "order": 1,
+    "createdAt": "2024-12-20T11:45:00.000Z"
+  },
+  {
+    "Id": 5,
+    "title": "Plan weekend hiking trip",
+    "completed": false,
+    "priority": "low",
+    "dueDate": "2024-12-28",
+    "categoryId": 3,
+    "order": 0,
+    "createdAt": "2024-12-20T16:20:00.000Z"
+  },
+  {
+    "Id": 6,
+    "title": "Buy groceries for the week",
+    "completed": false,
+    "priority": "medium",
+    "dueDate": "2024-12-23",
+    "categoryId": 3,
+    "order": 1,
+    "createdAt": "2024-12-20T08:00:00.000Z"
+  },
+  {
+    "Id": 7,
+    "title": "Schedule doctor appointment",
+    "completed": true,
+    "priority": "high",
+    "dueDate": null,
+    "categoryId": 3,
+    "order": 2,
+    "createdAt": "2024-12-18T13:30:00.000Z"
+  },
+  {
+    "Id": 8,
+    "title": "Prepare presentation slides",
+    "completed": false,
+    "priority": "high",
+    "dueDate": "2024-12-24",
+    "categoryId": 1,
+    "order": 2,
+    "createdAt": "2024-12-20T15:45:00.000Z"
+  }
+]
